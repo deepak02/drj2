@@ -9,15 +9,12 @@
     "node": ">=6.11.1"
   },
   "scripts": {
-    "lint": "eslint --fix \"**/*.js\"",
-    "start": "firebase serve --only functions",
-    "deploy": "firebase deploy --only functions",
-    "test": "npm run lint"
+    "start": "node index.js",
+    "deploy": "node index.js",
+    "test": "node index.js"
   },
   "dependencies": {
     "actions-on-google": "^1.5.1",
-    "firebase-admin": "^4.2.1",
-    "firebase-functions": "^0.5.7"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
