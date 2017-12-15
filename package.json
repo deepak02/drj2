@@ -14,7 +14,7 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "actions-on-google": "^1.5.1",
+    "actions-on-google": "^1.5.1"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
